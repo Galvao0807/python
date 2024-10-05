@@ -1,15 +1,39 @@
-total_pagantes = 60
-valor_total = 1000
-valor_inteira = 20
-valor_meia = 10
+#Declaração de variáveis 
+opcao = 0
+resultado = 0
 
-total_pagantes = int(input("Digite a quantidade total de pagantes: "))
-valor_total = float(input("Informe o valor total do dia: "))
-valor_inteira = float(input("Informa o valor da inteira: "))
-valor_meia = float(input("Informe o valor da meia: "))
+#Início do código 
+while (opcao != 6):
+    print("CALCULADORA DAS OPERAÇÕES BÁSICAS:\n")
+    print("Menu de escolha:\n")
+    print("1. Soma\n")
+    print("2. Subtração\n")
+    print("3. Multiplicação\n")
+    print("4. Divisão\n")
+    print("5. Resto da Divisão\n")
+    print("6. Sair\n")
+    print("Digite a sua opção: ")
+    int(input(opcao))
 
-x = (valor_total-valor_meia * total_pagantes) / (valor_inteira - valor_meia)
-y = total_pagantes - x
+    if (opcao == 1):
+        n1 = float(input("Digite o primeiro número: "))
+        n2 = float(input("Digite o segundo número: "))
+        resultado = n1 + n2
+        print(f"A soma = {resultado}")
 
-print(f"Pagantes Inteira: {x}")
-print(f"Pagantes meia: {y}")
+
+
+    elif  (opcao == 2):
+        n1 = float(input("Digite o primeiro número: "))
+        n2 = float(input("Digite o segundo número: "))
+        resultado = n1 - n2
+        print(f"A subtração = {resultado}")
+
+    elif (opcao == 3):
+        ...
+
+    elif (opcao == 6): 
+        print("Finalizando o código!\n")
+
+    else:
+        print("Opção inválida. Tente novamente.\n")
