@@ -1,2 +1,3 @@
 # python
-# print("Welcome to my show!")
+
+"Welcome to my show!"
