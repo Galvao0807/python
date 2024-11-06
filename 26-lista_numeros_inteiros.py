@@ -1,4 +1,3 @@
-
 minhalista = []
 
 for i in range(5):
@@ -12,6 +11,6 @@ print(f"\nO menor número da lista: {menor}\n")
 print(f"O maior número da lista: {maior}\n") 
 print(f"A soma dos números da lista: {soma}\n")
 
+print("A lista é:\n")
 for lista in minhalista:
-    print("A lista é:\n")
     print(lista)
