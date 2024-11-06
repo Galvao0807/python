@@ -13,6 +13,5 @@ print(f"O maior número da lista: {maior}\n")
 print(f"A soma dos números da lista: {soma}\n")
 
 for lista in minhalista:
+    print("A lista é:\n")
     print(lista)
-
-
